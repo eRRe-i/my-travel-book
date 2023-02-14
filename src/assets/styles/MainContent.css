@@ -1,0 +1,74 @@
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+    min-width: 720px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.Entry {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Entry--img {
+    max-width: 200px;
+    aspect-ratio: 3 /4;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.ContentData {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ContentData--country {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.ContentData--place {
+    font-size: 2.6rem;
+}
+
+.location-icon {
+    color: #F55A5A;
+    font-size: 1.5rem;
+}
+
+.location-country {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.location-link {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.ContentText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ContentText--date {
+    font-weight: 600;
+}

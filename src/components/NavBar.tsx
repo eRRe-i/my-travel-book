@@ -7,7 +7,7 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="navbar--container">
                 <IonIcon className="navbar--icon" icon="earth"></IonIcon>
-                <p className="navbar--text">my travel Journal.</p>
+                <p className="navbar--text">my travel journal.</p>
             </div>
         </nav>
 
